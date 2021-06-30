@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="OOPNETWPF.PlayerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OOPNETWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Grid>
+        <TextBlock x:Name="playerName" Margin="0,0,0,-32" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="100" Height="32" TextAlignment="Center"/>
+        <Image x:Name="playerImage" HorizontalAlignment="Left"  Height="100" VerticalAlignment="Top" Width="100" Stretch="Fill"/>
+        <TextBlock x:Name="shirtNumber" Margin="0,-16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center"/>
+        <Rectangle x:Name="highlight" Fill="#4C6E62EC" HorizontalAlignment="Center" Height="148" Stroke="#4C10145F" VerticalAlignment="Top" Width="100" Margin="0,-16,0,-32" Panel.ZIndex="-1" Visibility="Hidden"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,3 @@
+Championship:Male
+Language:en
+Resolution:1280 x 720
